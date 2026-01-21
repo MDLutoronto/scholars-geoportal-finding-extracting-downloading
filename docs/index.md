@@ -1,13 +1,94 @@
 ---
-title: Home   # Title of the page, which will be displayed in the navigation and the browser title.
-layout: page  # Layout type, usually 'page' for standard pages.
-nav_order: 1  # Order in the navigation menu.
-description:  # A brief description of the page for SEO purposes.
-permalink: /  # Optional: Custom URL for the page. It will serve as the slug. For example, /home/
-created_date:  # Date when the page was created. Should be in YYYY-MM-DD format.
-has_children: False  # Set to True if the page has sub-pages.
+title: "Finding/extracting/downloading GIS data using Scholars GeoPortal"
+layout: "home"
+description: ""
+permalink: "/"  #! Remove this if not the homepage
 ---
 
-# Just the docs template
+# Finding/extracting/downloading GIS data using Scholars GeoPortal
 
-See the <a href="https://mdlutoronto.github.io/jtd-edit-setup/docs/create-new-guide/" target="_blank"> Create a New Guide</a> page to get started with creating your own guide!
+This tutorial provides an example of finding, extracting, and downloading data from Scholars GeoPortal.[Scholars GeoPortal](http://geo2.scholarsportal.info.myaccess.library.utoronto.ca/) is a geospatial discovery tool that provides access to large scale geospatial datasets that can be used for mapping or analysis. Scholars Geoportal can be used to access both vector and raster data on a variety of topics such as land\-use, transportation networks, census geography, aerial imagery, geology, and more.
+
+ 
+
+Scholars GeoPortal is part of a growing collection of the Ontario Council of University Libraries (OCUL). Scholars GeoPortal allows users to customize their data extracts by selecting the appropriate area of interest, temporal extent, file format, and coordinate system for their work. This tutorial consists of *15* steps. For this tutorial, we are interested in finding, extracting, and downloading the latest data of the following criteria from Scholars GeoPortal:
+
+**Data:** [Cartographic Boundary Files (CBF), 2016 Census](http://geo.scholarsportal.info.myaccess.library.utoronto.ca/#r/details/_uri@=749265755)  
+**Area of Interest:** CMA of Toronto  
+**Temporal Extent:** 2016  
+**File Format:** Shapefile (.shp)  
+**Coordinate System**: UTM \- Zone 17N
+
+ 
+
+### 1\. Visit Scholars GeoPortal and enter "cartographic boundary files" into the search bar while **Data** is selected
+
+![]({{ '/assets/images/SGP%20Tutorial%201.JPG' | relative_url }})
+
+ 
+
+### 2\. Under **Sort by**, select the **Publish date: new** option in the dropdown menu.
+
+ 
+
+### 3\. Click the blue **Details** button under **Cartographic Boundary Files (CBF), 2016 Census** produced by Statistics Canada
+
+![]({{ '/assets/images/SGP%20Tutorial%202.JPG' | relative_url }})
+
+ 
+
+### 4\. Click the blue **Add**button to choose your census geographic level of interest. Please note that in certain datasets, such as [Roads Line](http://geo2.scholarsportal.info.myaccess.library.utoronto.ca/#r/details/_uri@=1885343180), you may add your year of choice immediately after adding the dataset
+
+ 
+
+### 
+
+ 
+
+### 5\. Highlight your cursor over **Census Metropolitan Areas \& Census Agglomerations**and click the blue **Add**button in the same line to generate a live preview of the data on the map
+
+![]({{ '/assets/images/SGP%20Tutorial%204A.JPG' | relative_url }})
+
+ 
+
+### 6\. You will now see gray polygons previewing all available CBF from the 2016 Census across Canada at the Census Metropolitan Areas \& Census Agglomerations level
+
+![]({{ '/assets/images/SGP%20Tutorial%204B.JPG' | relative_url }})
+
+ 
+
+### 7\. Manually zoom and pan into the Toronto region on the map
+
+ 
+
+### 
+
+ 
+
+### 8\. Click the gray **Download**tab at the top
+
+### 9\. Choose **Download by area of interest**
+
+### 10\. Choose **Select a pre\-defined area**
+
+### 11\. Choose**Census Metropolitan Areas (CMA)** from the dropdown menu
+
+### 12\. **Click**once anywhere **within the gray polygon of the Toronto region**and the selected polygon will turn green
+
+### 13\. Choose an **output file format** and **coordinate system** of your choice (please note that a recommended coordinate system for Toronto is “UTM – Zone 17N”)
+
+### 14\. Click the blue **Download**button
+
+![]({{ '/assets/images/SGP%20Tutorial%206.JPG' | relative_url }})
+
+ 
+
+### 15\. Click the links to the ZIP files under **My download list**to download the item(s)\*
+
+![]({{ '/assets/images/SGP%20Tutorial%207.JPG' | relative_url }})
+
+\* Please note that any data selected for download is clipped to the entire census geography encompassing the data. Visit these links for more information on[census geography unit definitions](https://mdl.library.utoronto.ca/canadian-census-geography-unit-definitions)and the latest[hierarchy of standard geographic areas for dissemination](http://www12.statcan.gc.ca.myaccess.library.utoronto.ca/census-recensement/2016/ref/dict/figures/f1_1-eng.cfm).
+
+[Back to Top](#top)
+
+Technique: [Extracting data](/technique/extracting-data) \| Tools: [Scholars GeoPortal](/tools/scholars-geoportal-0) \| Data Format: [Raster](/data-format/raster), [Vector](/data-format/vector)**Date Created:** 2018\-01\-15**Updated:** 2022\-12\-15
