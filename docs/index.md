@@ -2,6 +2,9 @@
 title: "Finding/extracting/downloading GIS data using Scholars GeoPortal"
 layout: "home"
 description: "This tutorial provides an example of finding, extracting, and downloading data from Scholars GeoPortal. Scholars GeoPortal is a geospatial discovery tool that provides access to large scale geospatial datasets that can be used for mapping or analysis. Scholars Geoportal can be used to access both vector and raster data on a variety of topics such as land-use, transportation networks, census geography, aerial imagery, geology, and more."
+maintainer:
+    - name: Cole White
+      link: https://library.utoronto.ca/staff/cole-white
 created_date: 2018-01-15
 permalink: "/"  #! Remove this if not the homepage
 ---
