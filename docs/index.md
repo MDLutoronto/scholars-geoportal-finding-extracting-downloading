@@ -89,5 +89,3 @@ Scholars GeoPortal is part of a growing collection of the Ontario Council of Uni
 * Please note that any data selected for download is clipped to the entire census geography encompassing the data. Visit these links for more information on [census geography unit definitions](https://mdl.library.utoronto.ca/canadian-census-geography-unit-definitions) and the latest [hierarchy of standard geographic areas for dissemination](https://www12.statcan.gc.ca/census-recensement/2016/ref/dict/figures/f1_1-eng.cfm).
 
 [Back to Top](#top)
-
-Technique: [Extracting data](https://mdl.library.utoronto.ca/technique/extracting-data) | Tools: [Scholars GeoPortal](https://mdl.library.utoronto.ca/tools/scholars-geoportal-0) | Data Format: [Raster](https://mdl.library.utoronto.ca/data-format/raster), [Vector](https://mdl.library.utoronto.ca/data-format/vector)
