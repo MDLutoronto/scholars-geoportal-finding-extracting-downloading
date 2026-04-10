@@ -25,69 +25,63 @@ Scholars GeoPortal is part of a growing collection of the Ontario Council of Uni
 
  
 
-### 1. Visit Scholars GeoPortal and enter "cartographic boundary files" into the search bar while **Data** is selected
+1. Visit Scholars GeoPortal and enter "cartographic boundary files" into the search bar while **Data** is selected
 
-![]({{ '/assets/images/SGP%20Tutorial%201.JPG' | relative_url }})
-
- 
-
-### 2. Under **Sort by**, select the **Publish date: new** option in the dropdown menu.
+    ![]({{ '/assets/images/SGP%20Tutorial%201.JPG' | relative_url }})
 
  
 
-### 3. Click the blue **Details** button under **Cartographic Boundary Files (CBF), 2016 Census** produced by Statistics Canada
-
-![]({{ '/assets/images/SGP%20Tutorial%202.JPG' | relative_url }})
+2. Under **Sort by**, select the **Publish date: new** option in the dropdown menu.
 
  
 
-### 4. Click the blue **Add**button to choose your census geographic level of interest. Please note that in certain datasets, such as [Roads Line](https://geo2-scholarsportal-info.us1.proxy.openathens.net/), you may add your year of choice immediately after adding the dataset
- 
+3. Click the blue **Details** button under **Cartographic Boundary Files (CBF), 2016 Census** produced by Statistics Canada
 
-### 5. Highlight your cursor over **Census Metropolitan Areas & Census Agglomerations** and click the blue **Add** button in the same line to generate a live preview of the data on the map
-
-![]({{ '/assets/images/SGP%20Tutorial%204A.JPG' | relative_url }})
+    ![]({{ '/assets/images/SGP%20Tutorial%202.JPG' | relative_url }})
 
  
 
-### 6. You will now see gray polygons previewing all available CBF from the 2016 Census across Canada at the Census Metropolitan Areas & Census Agglomerations level
+4. Click the blue **Add** button to choose your census geographic level of interest. 
+ 
 
-![]({{ '/assets/images/SGP%20Tutorial%204B.JPG' | relative_url }})
+5. Highlight your cursor over **Census Metropolitan Areas & Census Agglomerations** and click the blue **Add** button in the same line to generate a live preview of the data on the map
+
+    ![]({{ '/assets/images/SGP%20Tutorial%204A.JPG' | relative_url }})
 
  
 
-### 7. Manually zoom and pan into the Toronto region on the map
+6. You will now see gray polygons previewing all available CBF from the 2016 Census across Canada at the Census Metropolitan Areas & Census Agglomerations level
 
-
-
-### 
+    ![]({{ '/assets/images/SGP%20Tutorial%204B.JPG' | relative_url }})
 
  
 
-### 8. Click the gray **Download** tab at the top
+7. Manually zoom and pan into the Toronto region on the map
 
-### 9. Choose **Download by area of interest**
+    ![]({{ '/assets/images/image.png' | relative_url }})
 
-### 10. Choose **Select a pre-defined area**
+8. Click the gray **Download** tab at the top
 
-### 11. Choose **Census Metropolitan Areas (CMA)** from the dropdown menu
+9. Choose **Download by area of interest**
 
-### 12. **Click** once anywhere **within the gray polygon of the Toronto region** and the selected polygon will turn green
+10. Choose **Select a pre-defined area**
 
-### 13. Choose an **output file format** and **coordinate system** of your choice (please note that a recommended coordinate system for Toronto is “UTM – Zone 17N”)
+11. Choose **Census Metropolitan Areas (CMA)** from the dropdown menu
 
-### 14. Click the blue **Download** button
+12. **Click** once anywhere **within the gray polygon of the Toronto region** and the selected polygon will turn green
 
-![]({{ '/assets/images/SGP%20Tutorial%206.JPG' | relative_url }})
+13. Choose an **output file format** and **coordinate system** of your choice (please note that a recommended coordinate system for Toronto is “UTM – Zone 17N”)
+
+14. Click the blue **Download** button
+
+    ![]({{ '/assets/images/SGP%20Tutorial%206.JPG' | relative_url }})
 
  
+15. Click the links to the ZIP files under **My download list** to download the item(s)*
 
-### 15. Click the links to the ZIP files under **My download list** to download the item(s)*
-
-![]({{ '/assets/images/SGP%20Tutorial%207.JPG' | relative_url }})
+    ![]({{ '/assets/images/SGP%20Tutorial%207.JPG' | relative_url }})
 
 * Please note that any data selected for download is clipped to the entire census geography encompassing the data. Visit these links for more information on [census geography unit definitions](https://mdl.library.utoronto.ca/canadian-census-geography-unit-definitions) and the latest [hierarchy of standard geographic areas for dissemination](https://www12.statcan.gc.ca/census-recensement/2016/ref/dict/figures/f1_1-eng.cfm).
 
 [Back to Top](#top)
 
-Technique: [Extracting data](https://mdl.library.utoronto.ca/technique/extracting-data) | Tools: [Scholars GeoPortal](https://mdl.library.utoronto.ca/tools/scholars-geoportal-0) | Data Format: [Raster](https://mdl.library.utoronto.ca/data-format/raster), [Vector](https://mdl.library.utoronto.ca/data-format/vector)
