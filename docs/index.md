@@ -85,4 +85,4 @@ Scholars GeoPortal is part of a growing collection of the Ontario Council of Uni
 
 [Back to Top](#top)
 
-Tool: [Scholars GeoPortal}(https://mdlutoronto.github.io/tutorials-search/?tool=Scholars+GeoPortal)
+Tool: [Scholars GeoPortal](https://mdlutoronto.github.io/tutorials-search/?tool=Scholars+GeoPortal)
