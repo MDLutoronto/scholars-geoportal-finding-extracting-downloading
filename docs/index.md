@@ -17,7 +17,7 @@ This tutorial provides an example of finding, extracting, and downloading data f
 
 Scholars GeoPortal is part of a growing collection of the Ontario Council of University Libraries (OCUL). Scholars GeoPortal allows users to customize their data extracts by selecting the appropriate area of interest, temporal extent, file format, and coordinate system for their work. This tutorial consists of *15* steps. For this tutorial, we are interested in finding, extracting, and downloading the latest data of the following criteria from Scholars GeoPortal:
 
-**Data:** [Cartographic Boundary Files (CBF), 2016 Census](https://go.openathens.net/redirector/utoronto.ca?url=https://geo.scholarsportal.info/#r/details/_uri@=749265755)  
+**Data:** [Cartographic Boundary Files (CBF), 2016 Census](https://geo.scholarsportal.info/#r/details/_uri@=749265755)  
 **Area of Interest:** CMA of Toronto  
 **Temporal Extent:** 2016  
 **File Format:** Shapefile (.shp)  
